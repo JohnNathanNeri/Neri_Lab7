@@ -45,8 +45,6 @@ elif final_Grade >= 78 and final_Grade <= 80:
 elif final_Grade >= 75 and final_Grade <= 77:
     print(f"Final Grade = {final_Grade} GPA = 3.00")
     
-elif final_Grade < 75:
+else:
     print(f"Final Grade = {final_Grade} GPA = 5.00")
     
-else:
-    print("Please enter a valid number.")
